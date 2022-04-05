@@ -1,0 +1,100 @@
+/* responsive to phone  */
+
+@media only screen and (max-width: 896px) {
+    #introduction {
+        background-size: cover;
+        height: 130vh;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #introduction {
+        background-size: cover;
+        height: 80vh;
+    }
+}
+
+
+/* animation  */
+
+@keyframes heading {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hello {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes description {
+    0% {
+        opacity: 0;
+        transform: translateY(-1000%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(110%);
+    }
+    60% {
+        opacity: 0.5;
+        transform: translateY(130%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(90%);
+    }
+}
+
+@keyframes navigation {
+    0% {
+        opacity: 0;
+        transform: translateY(-1000%);
+    }
+    90% {
+        opacity: 0.5;
+        transform: translateY(5%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes logo-anim {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes download {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes know-more {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
